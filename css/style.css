@@ -57,6 +57,24 @@ header{
     margin-top:20px;
 }
 
+.btn-start{
+    color: white;
+    background-color: rgb(73, 73, 223);
+    border-radius: 5px;
+}
+
+.btn-stop{
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.btn-reset{
+    color: white;
+    background-color: rgb(150, 148, 148);
+    border-radius: 5px;
+}
+
 #lap-time{
     height: 290px;
     text-align: center;

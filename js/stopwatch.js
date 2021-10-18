@@ -46,7 +46,7 @@ document.getElementById('reset-lap').addEventListener('click', function(){
 //ストップウォッチの関数
 let goTimer = function(){
     let now = new Date();
-    let time = now.getTime() - start.getTime();
+    let time = now.getTime() - start.getTime() + stop;
     let millisec = time % 1000;
     let sec = Math.floor(time / 1000);
     let min = Math.floor(sec / 60);
