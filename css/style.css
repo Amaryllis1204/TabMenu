@@ -1,9 +1,11 @@
 header{
     background-color: blueviolet;
     text-align: center;
+    color: white;
 }
 
 .main-area{
+    height: 600px;
     padding: 20px 2%;
     background-color:rgb(187, 186, 186);
 }
@@ -24,9 +26,11 @@ header{
 }
 
 .content-box{
+    margin-top: 30px;
     display: none;
     background-color: white;
     height: 500px;
+    width:100%;
 }
 
 .content-box.is-active{
