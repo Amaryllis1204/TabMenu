@@ -22,12 +22,12 @@
                 <p class="tab-menu">タブ3</p>
             </div>
             <div class="content-box is-active">
-                <div class="timer">00:00:00:00</div>
+                <div id="timer">00:00:00:00</div>
                 <div class="button">
-                <button class="start-stop btn btn-start">START</button>
-                <button class="reset-lap btn btn-reset">RESET</button>
+                <button id="start-stop" class="btn btn-start">START</button>
+                <button id="reset-lap" class="btn btn-reset">RESET</button>
                 </div>
-                <div class="lap-time"></div>
+                <div id="lap-time"></div>
             </div>
             <div class="content-box">
                 <p class="content">タブ2の中身</p>
@@ -40,6 +40,7 @@
     <footer>
         <p class="copy-right">2020/10/18作</p>
     </footer>
-</body>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/stopwatch.js"></script>
+</body>
 </html>
