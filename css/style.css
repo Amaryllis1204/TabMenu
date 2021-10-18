@@ -4,5 +4,35 @@ header{
 }
 
 .main-area{
-    width: ;
+    padding: 20px 2%;
+    background-color:rgb(187, 186, 186);
+}
+
+.tab{
+    display: flex;
+}
+
+.tab-menu{
+    width: calc(100%/3);
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.tab-menu.is-active{
+    background-color: aqua;
+}
+
+.content-box{
+    display: none;
+    background-color: white;
+    height: 500px;
+}
+
+.content-box.is-active{
+    display: flex;
+}
+
+.copy-right{
+    text-align: center;
 }
