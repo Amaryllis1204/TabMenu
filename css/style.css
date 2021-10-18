@@ -83,6 +83,11 @@ header{
     overflow: scroll;
 }
 
+li{
+    border-bottom: solid 2px gray;
+    font-size: 2em;
+}
+
 .copy-right{
     text-align: center;
 }
