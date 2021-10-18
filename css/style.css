@@ -30,7 +30,27 @@ header{
 }
 
 .content-box.is-active{
-    display: flex;
+    display: block;
+}
+
+.timer{
+    padding-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    border:1px solid gray;
+    padding: 50px;
+    background-color: black;
+    color: darkgoldenrod;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.button{
+    text-align: center;
+}
+
+.btn{
+    width: 50%;
+    margin-top:20px;
 }
 
 .copy-right{
