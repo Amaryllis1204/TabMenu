@@ -31,14 +31,14 @@ document.getElementById('start-stop').addEventListener('click', function(){
 
 //reset-lapボタンの操作
 document.getElementById('reset-lap').addEventListener('click', function(){
-    if(document.getElementById('reset-lap').innerHTML = 'LAP'){
+    if(document.getElementById('reset-lap').innerHTML === 'LAP'){
         let lapTime = document.getElementById('timer').textContent;
-        let newElement = document.createElement('p');
+        let newElement = document.createElement('li');
         newElement.innerHTML = lapTime;
         document.getElementById('lap-time').appendChild(newElement);
     } else {
         document.getElementById('timer').innerHTML = '00:00:00:00';
-        document.getElementById('lap-time') = '';
+        document.getElementById('lap-time').innerHTML = '';
         stop = 0;
     }
 });

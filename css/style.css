@@ -34,7 +34,6 @@ header{
 }
 
 #timer{
-    padding-top: 50px;
     font-size: 36px;
     text-align: center;
     border:1px solid gray;
@@ -48,13 +47,20 @@ header{
     text-align: center;
 }
 
-#btn{
-    width: 50%;
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    width: 40%;
     margin-top:20px;
 }
 
 #lap-time{
+    height: 290px;
     text-align: center;
+    overflow: scroll;
 }
 
 .copy-right{
