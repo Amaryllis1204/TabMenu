@@ -19,6 +19,7 @@ header{
     text-align: center;
     background-color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .tab-menu.is-active{
@@ -94,4 +95,35 @@ li{
 
 .copy-right{
     text-align: center;
+}
+
+.imgIntroduction{
+    text-align: center;
+    background-color: aqua;
+}
+
+.imglist{
+    text-align: center;
+}
+
+#myimg{
+    width: auto;
+    height: 300px;
+}
+
+#location{
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.btn-back{
+    color: white;
+    background-color: rgb(73, 73, 223);
+    border-radius: 5px;
+}
+
+.btn-next{
+    color: white;
+    background-color: rgb(73, 73, 223);
+    border-radius: 5px;
 }
