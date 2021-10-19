@@ -19,7 +19,7 @@
             <div class="tab">
                 <p class="tab-menu is-active">Timer</p>
                 <p class="tab-menu">SlideShow</p>
-                <p class="tab-menu">タブ3</p>
+                <p class="tab-menu">TODO</p>
             </div>
             <div class="content-box is-active">
                 <div id="timer">00:00:00:00</div>
@@ -48,7 +48,20 @@
                 </div>
             </div>
             <div class="content-box">
-                <p class="content">タブ3の中身</p>
+                <div class="todoIntroduction">
+                    <p>TODOリスト</p>
+                </div>
+                <div class="todotable">
+                    <div class="scroll">
+                        <ul class="todolist"></ul>
+                    </div>
+                </div>
+                <div class="addcontainer">
+                    <input type="text" id="todo">
+                    <button id="add" class="btn btn-add">+Add</button>
+                </div>
+
+            </div>
             </div>
         </div>
     </section>
@@ -58,5 +71,6 @@
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/stopwatch.js"></script>
 <script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript" src="js/todo.js"></script>
 </body>
 </html>
