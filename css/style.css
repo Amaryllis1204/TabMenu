@@ -38,6 +38,11 @@ header{
     display: block;
 }
 
+.timerIntroduction{
+    text-align: center;
+    background-color: aqua;
+}
+
 #timer{
     font-size: 36px;
     text-align: center;
@@ -83,7 +88,7 @@ header{
 }
 
 #lap-time{
-    height: 260px;
+    height: 210px;
     text-align: center;
     overflow: scroll;
 }
@@ -147,10 +152,9 @@ li{
     background-color: #FFFFDD;
 }
 
-.scroll{
-    width: 100%;
-    height: 400px;
-    overflow: auto;
+.todolist{
+    height: 370px;
+    overflow: scroll;
 }
 
 .btn-add{
