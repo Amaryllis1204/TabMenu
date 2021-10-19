@@ -120,12 +120,14 @@ li{
     color: white;
     background-color: rgb(73, 73, 223);
     border-radius: 5px;
+    font-size: 1.2em;
 }
 
 .btn-next{
     color: white;
     background-color: rgb(73, 73, 223);
     border-radius: 5px;
+    font-size: 1.2em;
 }
 
 .copyright{
