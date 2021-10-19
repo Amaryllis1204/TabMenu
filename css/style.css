@@ -135,7 +135,8 @@ li{
 }
 
 .todoIntroduction{
-    height: 30px;
+    text-align: center;
+    background-color: aqua;
 }
 
 .todotable{
@@ -180,4 +181,3 @@ li{
     border: 1px solid gray;
     border-radius: 10px;
 }
-
