@@ -172,6 +172,10 @@ li{
     height: 400px;
 }
 
+.todotable li{
+    border-bottom: none;
+}
+
 #todo{
     border: 1px solid gray;
     border-radius: 10px;
