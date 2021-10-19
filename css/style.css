@@ -107,7 +107,7 @@ li{
 }
 
 #myimg{
-    width: auto;
+    width: 100%;
     height: 300px;
 }
 
@@ -126,4 +126,8 @@ li{
     color: white;
     background-color: rgb(73, 73, 223);
     border-radius: 5px;
+}
+
+.copyright{
+    text-align: center;
 }
