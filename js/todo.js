@@ -18,7 +18,6 @@ document.getElementById('add').addEventListener('click', function(){
         removeTasks(removeButton);
     });
 });
-
 //削除処理
 const removeTasks = (removeButton) =>{
     const choseTask = removeButton.closest('li');
